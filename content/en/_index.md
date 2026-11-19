@@ -92,6 +92,8 @@ sections:
               icon: devicon/html5
             - name: CSS3
               icon: devicon/css3
+            - name: SQL
+              icon: hero/circle-stack
         - name: Mobile & Desktop
           items:
             - name: React Native

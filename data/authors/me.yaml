@@ -96,6 +96,8 @@ skills:
         level: 4
       - label: "HTML & CSS"
         level: 5
+      - label: "SQL"
+        level: 4
   - name: "Software & Engineering"
     items:
       - label: "Git"
