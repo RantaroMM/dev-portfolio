@@ -1,6 +1,7 @@
 # Marcos Barbosa — Developer Portfolio
 
 Portfólio pessoal de **Marcos Vinicius Gomes Barbosa**, estudante de Engenharia Elétrica (ênfase em Automação e Controle) na **Poli-USP** e desenvolvedor de software com experiência em aplicações mobile, desktop, web e integração com hardware via Bluetooth Low Energy (BLE).
+Acesse em: https://dev-portfolio-5bk1.netlify.app/
 
 Site estático bilíngue (**Inglês** e **Português**), construído com **Hugo**, **Hugo Blox**, **Tailwind CSS v4** e busca local via **Pagefind**.
 
