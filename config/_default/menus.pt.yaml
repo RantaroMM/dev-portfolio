@@ -1,0 +1,15 @@
+# Navigation Links (Português)
+
+main:
+  - name: Projetos
+    url: /#projects
+    weight: 10
+  - name: Tecnologias
+    url: /#skills
+    weight: 20
+  - name: Experiência
+    url: /#experience
+    weight: 30
+  - name: Contato
+    url: /#contact
+    weight: 40

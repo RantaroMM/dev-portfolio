@@ -1,238 +1,71 @@
-# [The Dev Portfolio That Gets You Hired](https://github.com/HugoBlox/hugo-theme-dev-portfolio)
+# Marcos Barbosa — Developer Portfolio
 
-[![Screenshot](.github/preview.png)](https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=preview)
+Portfólio pessoal de **Marcos Vinicius Gomes Barbosa**, estudante de Engenharia Elétrica (ênfase em Automação e Controle) na **Poli-USP** e desenvolvedor de software com experiência em aplicações mobile, desktop, web e integração com hardware via Bluetooth Low Energy (BLE).
 
-<!-- TODO: Replace with a short demo video showing Hugo Chat generating a portfolio page -->
-https://github.com/user-attachments/assets/a6b676c0-1c10-4734-a55f-68c6f72d1612
-
-<h1 align="center">Ship Your Portfolio Before The Weekend</h1>
-
-<p align="center">
-  <strong>Your projects deserve better than a GitHub pinned repo.</strong><br/>
-  Showcase real work, ship a clean blog, and stand out with a modern dark-first design — all from Markdown files you own. No fragile React app required.<br/>
-  Built on <a href="https://github.com/HugoBlox/kit">HugoBlox</a> — the open-source framework where AI generates your pages and you own everything as Markdown.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Deploy Free (60s)</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top_dev-portfolio"><b>Customize with AI</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
-</p>
-
-<div align="center">
-
-  <a href="https://github.com/HugoBlox/hugo-theme-dev-portfolio">
-    <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-dev-portfolio?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
-  </a>
-  <a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=HugoBlox&logo=github&style=flat-square&color=181717" alt="HugoBlox Stars">
-  </a>
-
-</div>
-
-<p align="center">
-  <sub>Part of the <a href="https://github.com/HugoBlox/kit"><strong>HugoBlox</strong></a> ecosystem · <strong>150,000+</strong> sites · Rated <strong>4.9/5</strong> (official survey) · Since <strong>2016</strong></sub>
-</p>
+Site estático bilíngue (**Inglês** e **Português**), construído com **Hugo**, **Hugo Blox**, **Tailwind CSS v4** e busca local via **Pagefind**.
 
 ---
 
-## Why This Template?
+## Projetos em Destaque
 
-Most developer portfolios look the same — and most "quick" site builders produce slow, bloated React apps you can't maintain. This is a **fast, modern portfolio** that makes your work look as good as it is:
-
-- **Students & grads** applying to internships, MSc programs, or junior roles — stand out with a living portfolio, not a flat resume
-- **Software engineers** who want a modern dark-first design that feels premium without writing frontend code
-- **STEM professionals** (data, ML, research, engineering) showcasing projects and technical writing
-- **Anyone job-hunting** who needs projects, tech stack, experience timeline, and a blog in one credible site
-
-> *"I deployed this on a Friday evening and had three recruiters comment on it by Monday. The dark mode and project grid made my work look 10x more polished than a GitHub profile."*
-> — **Kai Nakamura**, Software Engineer
-
-> *"My students use this as their default portfolio template. They fork it, edit Markdown, push to GitHub Pages — done. No React, no Vercel bills, no maintenance headaches."*
-> — **Dr. Amira Hassan**, CS Lecturer, TU Munich
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_mid">
-    <img src="https://img.shields.io/badge/⚡️%20Deploy%20Your%20Portfolio%20in%2060s-7c3aed?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
-</p>
+- **[Gaugit (RID GAUG)](content/pt/projects/gaugit/index.md)** — Aplicativo mobile em **React Native** desenvolvido na Iniciação Científica no **IPEN**, integrado via **Bluetooth Low Energy (BLE)** ao firmware embarcado do **OpenDosimeter** para telemetria em tempo real, espectroscopia de energia (1024 canais) e configuração do detector. *Projeto premiado no X Prêmio de Inovação Tecnológica do IPEN.*
+- **[Zyla](content/pt/projects/zyla/index.md)** — Aplicativo mobile de treinos e corrida desenvolvido em **React Native**, com design e estruturação das telas no **Figma**.
 
 ---
 
-## Features
+## Principais Recursos
 
-| Feature | Benefit |
-| :--- | :--- |
-| **Filterable project grid** | Showcase your work with tags, smooth transitions, and featured images. Visitors find what matters fast. |
-| **Tech stack display** | Icon grid of your tools and languages — recruiters see your skills at a glance. |
-| **Experience & education timeline** | Structured career history with dates, roles, and descriptions. |
-| **Blog with featured images** | Write technical posts in Markdown. Code highlighting, math, and diagrams included. |
-| **Dark-first design** | Looks premium in dark mode, works perfectly in light. No design skills needed. |
-| **SEO & AI-ready** | Optimized for search engines and LLMs — your work gets found and recommended. |
-| **AI page generation** | Describe what you need to [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=features_dev-portfolio) — get structured pages with correct front matter instantly. |
-| **Visual editor** | Drag-and-drop blocks in VS Code with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable). No coding needed. |
-| **Plain Markdown** | Every file is human-readable. No database, no lock-in, take your content anywhere. |
-| **Free hosting** | Deploy to GitHub Pages, Netlify, Vercel, or Cloudflare — all free tier. |
+- **Bilíngue (`EN` / `PT-BR`)**: alternância direta de idioma no cabeçalho e no rodapé (`/` e `/pt/`).
+- **Tema claro/escuro**: suporte automático ao tema do sistema com tema *Dracula*.
+- **Portfólio filtrável**: filtros por categoria (`Mobile`, `BLE & IoT`, `Design UI/UX`) e páginas dedicadas com capturas de tela.
+- **Linha do tempo**: histórico de experiências profissionais (**BTG Pactual**, **IPEN**, **ZYLA**, **Liga de Empreendedorismo da Poli**, **Mercado Bitcoin**) e formação acadêmica na **Poli-USP**.
+- **Busca integrada**: indexação estática multilíngue com **Pagefind**.
 
 ---
 
-## 🚀 Get Started
+## Estrutura do Projeto
 
-### Step 1: Deploy Your Site
-
-**Option A: Launch in browser** (fastest — no install needed)
-
-> [!TIP]
-> Deploy a live site in 60 seconds — no software to install:
-> [**Deploy Dev Portfolio free**](https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=get_started)
-
-**Option B: Use the CLI**
-
-```bash
-# Requires Hugo Extended & Node.js
-npx hugoblox create site --template dev-portfolio
+```text
+├── assets/media/authors/me.png   # Foto de perfil
+├── config/_default/              # Configurações do Hugo, idiomas, menus e tema
+├── content/
+│   ├── en/                       # Páginas e projetos em Inglês
+│   └── pt/                       # Páginas e projetos em Português
+├── data/
+│   ├── authors/me.yaml           # Perfil, experiências e formação (EN)
+│   └── pt/authors/me.yaml        # Tradução do perfil (PT-BR)
+├── layouts/                      # Customizações locais de blocos
+└── static/uploads/resume.pdf     # Currículo em PDF
 ```
 
-### Step 2: Customize With AI + Visual Editing
+---
 
-<table>
-<tr>
-<td width="50%">
+## Como Executar Localmente
 
-**✨ Hugo Chat** — AI customization
+### Pré-requisitos
 
-Tell Hugo Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
+- [Hugo Extended](https://gohugo.io/installation/)
+- [Node.js](https://nodejs.org/) e [pnpm](https://pnpm.io/)
 
-> *"Add a project page for my CLI tool with tech stack, screenshots, and a GitHub link"*
+### Comandos
 
-[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2_dev-portfolio)
+```bash
+# Instalar dependências
+pnpm install
 
-</td>
-<td width="50%">
+# Iniciar servidor local de desenvolvimento
+pnpm run dev
 
-**Ownable CMS** — visual editing in VS Code
-
-1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable)
-2. Open your project in VS Code
-3. Click the Ownable icon to start editing visually
-
-</td>
-</tr>
-</table>
-
-![Ownable CMS in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*Ownable CMS: Drag-and-drop page builder inside VS Code.*
-
-> [!NOTE]
-> **New to Hugo?** No problem. You don't need to know Hugo — edit visually or write Markdown. Hugo is the engine under the hood that makes your site fast, secure, and free to host. [Learn more →](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs_dev-portfolio)
+# Gerar build de produção e índice de busca (Pagefind)
+pnpm run build
+```
 
 ---
 
-## 💎 Go Premium
+## Contato
 
-Love the free version? **Dev Portfolio Pro** takes it further:
-
-- Premium designs that make an unforgettable first impression
-- Advanced project layouts and gallery options
-- Enhanced timeline and skill visualizations
-- Remove attribution, priority support
-
-| | **Dev Portfolio** (Free) | **Dev Portfolio Pro** |
-| :--- | :---: | :---: |
-| Design | Modern & clean | **Premium designs** |
-| Project layouts | Standard grid | **Advanced gallery** |
-| Skill display | Icon grid | **Enhanced visuals** |
-| Support | Community | **Priority** |
-
-<p align="center">
-  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=premium_dev-portfolio"><b>Compare plans</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/dev-portfolio-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_dev-portfolio"><b>Deploy Pro version</b></a>
-</p>
+- **E-mail:** [marcosb@usp.br](mailto:marcosb@usp.br)
 
 ---
 
-## 🏆 Why HugoBlox?
-
-> *Why not just use WordPress, Webflow, or an AI builder like Lovable?*
-
-| | **AI builders** (Lovable, v0) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
-| :--- | :---: | :---: | :---: |
-| AI generates your pages | Yes | No | **Yes** |
-| You own the output as readable files | No — React code | No — database | **Yes — Markdown** |
-| Free to host forever | No | No | **Yes** |
-| Human-editable without the tool | Barely | No | **Yes — it's Markdown** |
-| Open source | No | No | **Yes — MIT licensed** |
-
-> [!IMPORTANT]
-> Your content is plain Markdown files. No lock-in, no database, no vendor dependency. If you ever want to leave, take your files and go.
-
----
-
-## FAQ
-
-<details>
-<summary><b>Do I need to know Hugo?</b></summary>
-No. Edit visually with Ownable CMS or write Markdown. Hugo is the build engine — you don't need to touch it.
-</details>
-
-<details>
-<summary><b>Can I use this for non-dev portfolios?</b></summary>
-Yes. The project grid, blog, and timeline work for any profession. But the dark-first design and tech stack section are built with developers in mind.
-</details>
-
-<details>
-<summary><b>Can I host for free?</b></summary>
-Yes. GitHub Pages, Netlify, Vercel, and Cloudflare Pages all have free tiers for static sites.
-</details>
-
-<details>
-<summary><b>Can I migrate my content later?</b></summary>
-Yes. Your site is just Markdown files in a folder. Copy them anywhere.
-</details>
-
-<details>
-<summary><b>What's Hugo Chat?</b></summary>
-An AI assistant trained on Hugo and HugoBlox docs. Describe what you want and it generates the right pages with correct front matter. <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=faq_dev-portfolio">Free to try.</a>
-</details>
-
-<details>
-<summary><b>Can I cancel Pro anytime?</b></summary>
-Yes. No questions asked.
-</details>
-
----
-
-<h2 align="center">🚀 Ready to launch?</h2>
-
-<p align="center">
-  Deploy in 60 seconds. Customize with AI. Own it as Markdown forever.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Deploy Dev Portfolio — free</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final_dev-portfolio"><b>Customize with AI</b></a>
-</p>
-
----
-
-## Community & Support
-
-- 💬 [**Discord**](https://discord.gg/z8wNYzb) — ask questions, share your site
-- 📚 [**Docs**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=community_dev-portfolio)
-- ⭐ [**Star HugoBlox**](https://github.com/HugoBlox/kit) — help others find it
-- 🐦 [**Follow on X**](https://x.com/GoOwnable)
-
-### Sponsors
-
-[**❤️ Sponsor on GitHub**](https://github.com/sponsors/gcushen) | [**🏢 Become a Partner**](https://github.com/sponsors/gcushen)
-
----
-
-MIT © 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme)
+Baseado no template open-source [Hugo Blox Dev Portfolio](https://github.com/HugoBlox/kit) (licença MIT).

@@ -1,100 +1,120 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: "Marcos Barbosa"
+  given: "Marcos Vinicius"
+  family: "Gomes Barbosa"
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
-bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
-
+  icon: "⚡"
+role: "Software Developer | Electrical Engineering @ USP"
+email: "marcosb@usp.br"
+bio: "Electrical Engineering student at USP (Automation & Control) passionate about innovation and technology. Experienced in building mobile, desktop, and web applications, including BLE hardware integration."
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
-
+  - name: "Universidade de São Paulo (Poli-USP)"
+    url: "https://www.poli.usp.br"
+  - name: "IPEN"
+    url: "https://www.ipen.br"
 links:
-  - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/alexjohnson
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
-
+  - icon: "at-symbol"
+    url: "mailto:marcosb@usp.br"
+    label: "E-mail Me"
+  # Add your LinkedIn and GitHub URLs below when ready:
+  # - icon: "brands/linkedin"
+  #   url: "https://www.linkedin.com/in/your-handle/"
+  # - icon: "brands/github"
+  #   url: "https://github.com/your-handle"
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
-
+  - "Mobile Development (React Native)"
+  - "Bluetooth Low Energy (BLE) & Embedded Systems"
+  - "Desktop & Web Engineering"
+  - "Automation & Control"
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
-    summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
-
+  - degree: "B.S. in Electrical Engineering (Automation & Control)"
+    institution: "Universidade de São Paulo (Poli-USP)"
+    start: "4th Year"
+    end: "Ongoing"
+    summary: "Undergraduate student in Electrical Engineering with an emphasis in Automation & Control. Scientific Initiation researcher at IPEN and former Director of Communication at Liga de Empreendedorismo da Poli."
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
-    summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
-
+  - role: "Software Development — BTG Empresas"
+    org: "BTG Pactual · São Paulo, SP"
+    start: "2026-09-01"
+    end: "2026-12-31"
+    summary: "Developed a desktop application migrated from a web platform using Tauri and Rust, supported by Claude CLI and generative AI tools. Built for BTG Pactual corporate (PJ) clients."
+    tags:
+      - "Tauri"
+      - "Rust"
+      - "Azure"
+      - "Claude"
+  - role: "Mobile App Developer (Scientific Initiation)"
+    org: "IPEN · Butantã, São Paulo, SP"
+    start: "2026-03-01"
+    end: ""
+    summary: "Built a React Native mobile app (Gaugit) using generative AI tools (OpenAI Codex, Google Antigravity) to assist implementation, optimization, and debugging. Integrated with embedded firmware via Bluetooth Low Energy (BLE) for real-time transmission and visualization of radiation data from the OpenDosimeter. Awarded at the X IPEN Technological Innovation Award."
+    tags:
+      - "React Native"
+      - "BLE"
+      - "Git"
+      - "OpenAI Codex"
+      - "Google Antigravity"
+  - role: "Mobile Developer"
+    org: "ZYLA · São Paulo, SP"
+    start: "2025-01-01"
+    end: "2025-09-30"
+    summary: "Developed the Zyla mobile application using React Native and designed and structured the application screens in Figma."
+    tags:
+      - "React Native"
+      - "Git"
+      - "Figma"
+  - role: "Director of Communication"
+    org: "Liga de Empreendedorismo da Poli · Poli-USP"
+    start: "2024-09-01"
+    end: "2025-07-31"
+    summary: "After one year as a member at Poli-USP's university entrepreneurship league, became Director of Communication, leading marketing and public speaking development for members."
+    tags:
+      - "People Management"
+      - "Team Leadership"
+      - "Public Speaking"
+  - role: "Front-end Developer"
+    org: "Mercado Bitcoin · São Paulo, SP"
+    start: "2024-01-01"
+    end: "2024-03-31"
+    summary: "Developed and enhanced components of the company's design system."
+    tags:
+      - "JavaScript"
+      - "HTML"
+      - "CSS"
 skills:
-  - name: Development
+  - name: "Programming"
     items:
-      - label: TypeScript
+      - label: "React Native"
         level: 5
-      - label: React
+      - label: "JavaScript"
         level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
+      - label: "C / C++"
         level: 4
-  - name: DevOps
+      - label: "HTML & CSS"
+        level: 5
+  - name: "Software & Engineering"
     items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
+      - label: "Git"
         level: 5
-
+      - label: "Figma"
+        level: 4
+      - label: "Arduino & NI LabView"
+        level: 4
+      - label: "Multisim"
+        level: 4
 languages:
-  - name: English
+  - name: "Portuguese"
     level: 5
-    label: Native
-
-awards: []
+    label: "Native"
+  - name: "English"
+    level: 4
+    label: "TOEFL iBT B2 (90/120)"
+awards:
+  - title: "X Prêmio de Inovação Tecnológica do IPEN"
+    institution: "IPEN"
+    date: "2026-01-01"
+    summary: "Awarded project for the OpenDosimeter / Gaugit Scientific Initiation."

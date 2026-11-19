@@ -2,21 +2,19 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
+  label: English
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+pt:
+  label: Português
+  locale: pt-br
+  contentDir: content/pt
+  weight: 2
+  params:
+    hugoblox:
+      identity:
+        tagline: Desenvolvedor de Software | Engenharia Elétrica @ USP
+        description: Estudante de Engenharia Elétrica na USP e desenvolvedor de software, com experiência em aplicações web, mobile, desktop e integração via BLE.
